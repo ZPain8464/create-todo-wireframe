@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+nav {
+  border: grey solid 2px;
+  background-color: grey;
+  padding: 15px;
+  font-size: 30px;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+footer {
+  border: grey 2px solid;
+  background-color: grey;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  border: 2px grey solid;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin-top: 10%;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+h2 {
+  padding: 0 0 10px;
+}
+
+input {
+  width: 75%;
+}
+
+button {
+  margin-top: 10px;
+  width: 50%;
+}
